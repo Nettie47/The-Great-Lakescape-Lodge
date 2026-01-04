@@ -1,0 +1,175 @@
+﻿@charset "utf-8";
+
+@font-face {
+   font-family: Champagne;
+   src: url(cac_champagne.woff) format('woff'),
+        url(cac_champagne.ttf) format('ttf');
+}
+@font-face {
+   font-family: Dobkin;
+   src: url(DobkinPlain.woff) format('woff'),
+        url(DobkinPlain.ttf) format('ttf');
+}
+
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: NJ DeHoyos
+   Date:  12/21/2025 
+   
+   Filename: lake_styles.css
+
+*/
+
+/* HTML & Body Styles */
+html {
+   background-color: rgb(158, 158, 58);
+   color:rgb(84, 81, 75);
+}
+
+
+h1 {
+ font-family: Champagne; 
+ font-size: 4em; 
+ margin: 20px;
+}
+
+body {
+   background-color: rgb(239, 231, 213);  
+}
+
+
+
+body > nav {
+   background-color: rgb(237, 182, 236);
+
+}
+
+body > header >nav {
+    font-size: 1em;
+    padding: 0.5em;
+
+}
+
+/* Section Styles */
+
+section#leftcol {
+   margin: 10px;
+   padding: 0em;  
+}
+
+section#leftcol p {
+   margin-left: 20px;
+}
+
+section#rightcol {
+   background-color: rgb(237, 182, 236);
+}
+
+section#rightcol h2{
+   text-align: left;
+   margin-left: 25px;
+   color: black;
+}
+
+section#rightcol blockquote {
+   height: 700px;
+}
+
+ul li {
+   list-style-type: none;
+   height: 1em;
+   line-height: 0.5em;
+   font-family: "Mulish", sans-serif;
+   font-size: 0.8em;
+   color: rgb(84, 81, 75);
+}
+
+blockquote::before {
+  content: '“'; 
+  font-size: 2em;
+}
+
+blockquote::after {
+  content: '”'; 
+  font-size: 2em;
+}
+
+section#rightcol a:link, section#rightcol a:visited {
+   color: rgb(84, 81, 75);
+   text-decoration: none;
+   float: left;
+   font-size: 1em;
+
+}
+
+/* Aside Styles 
+
+two boxes on bottom*/
+
+aside {
+  background-color: rgb(247, 195, 203);
+  height: 300px;
+}
+
+aside h1 {
+   font-size: 2em;
+   text-align: center;
+   font-family: "Goldman", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   margin-top: 10px;
+}
+
+aside ul li {
+   text-decoration: none;
+   line-height: 3em;
+   font-size: 1em;
+   list-style-type: circle;
+   margin-right: 10px;
+   padding-left: 2px;
+   
+}
+
+
+
+/* Navigation Styles */
+
+nav {
+   background-color: rgb(237, 182, 236);
+   text-align: center;
+   font-family: Champagne;
+   text-decoration: none;
+
+}
+
+aside h2 {
+   padding: 10px;
+   font-size: 1.1em;
+   line-height: 0.4em ;
+}
+
+aside p {
+   font-size: 1em;
+   margin-right: 10px;
+
+}
+
+
+
+
+/* Footer Styles */
+
+footer {
+   background-color: black;
+   color: rgba(255, 255, 255, 0.7);  
+   text-align: center;
+   font-family: "Lavishly Yours", cursive;
+   font-weight: 400;
+   font-style: normal;
+   padding: 10px;
+}
